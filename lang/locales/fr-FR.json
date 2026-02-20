@@ -1,0 +1,68 @@
+{
+  "uptimeRobot": "UptimeRobot",
+  "site": {
+    "loading": "Chargement de l'état du site",
+    "unknown": "État du site inconnu",
+    "normal": "Le site fonctionne normalement",
+    "error": "Tous les sites ont rencontré des problèmes",
+    "warn": "Certains sites ont rencontré des problèmes"
+  },
+  "nav": {
+    "about": "À propos de ce site",
+    "logout": "Déconnexion"
+  },
+  "header": {
+    "loading": "Veuillez patienter...",
+    "unknown": "Ceci pourrait être un problème temporaire. Essayez d'actualiser.",
+    "update": "Mis à jour le",
+    "updateAt": "Sera actualisé dans {time}"
+  },
+  "footer": {
+    "basedOn": "Basé sur",
+    "interface": "Interface",
+    "checkFrequency": "Fréquence de vérification",
+    "fiveMinutes": "5 minutes"
+  },
+  "card": {
+    "unknownDate": "Date inconnue",
+    "unknownData": "Aucune donnée pour aujourd'hui",
+    "percent": "Disponibilité quotidienne {percent}%",
+    "percentData": "Échec {times} fois, temps d'arrêt total {duration}, disponibilité quotidienne {percent}%",
+    "summary": "Disponibilité des {days} derniers jours {percent}%",
+    "summaryData": "Échec {times} fois dans les {days} derniers jours, temps d'arrêt total {duration}, disponibilité moyenne {percent}%",
+    "error": "Erreur",
+    "errorText": "Limite d'appels d'interface dépassée ou erreur de requête. Réessayez plus tard.",
+    "status": {
+      "stop": "En pause",
+      "unknown": "Pas encore vérifié",
+      "pause": "En pause",
+      "normal": "Normal",
+      "error": "Erreur",
+      "down": "Hors service"
+    },
+    "type": {
+      "tip": "Vérifier si le site fonctionne correctement toutes les {interval} pour {type}",
+      "HTTP": "Surveiller la disponibilité du service cible en envoyant des requêtes HTTP ou HTTPS",
+      "KEYWORD": "Obtenir le contenu de la page et vérifier s'il contient le mot-clé spécifié",
+      "PING": "Envoyer une requête Ping au serveur cible en utilisant le protocole ICMP",
+      "PORT": "Vérifier si le port spécifié du serveur cible est ouvert",
+      "HEARTBEAT": "Le service surveillé envoie activement un 'signal de pulsation' au service de surveillance pour indiquer qu'il fonctionne normalement"
+    }
+  },
+  "meta": {
+    "hour": "heure",
+    "minute": "minute",
+    "second": "seconde",
+    "fastTip": "Actualisation trop fréquente. Réessayez plus tard.",
+    "refresh": "Réessayer",
+    "today": "Aujourd'hui"
+  },
+  "login": {
+    "tip": "Le site est protégé par mot de passe. Entrez le mot de passe pour voir.",
+    "password": "Mot de passe",
+    "placeholder": "Entrez le mot de passe",
+    "submit": "Connexion",
+    "error": "Mot de passe incorrect",
+    "success": "Connexion réussie"
+  }
+}

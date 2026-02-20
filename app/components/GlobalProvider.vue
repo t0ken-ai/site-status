@@ -44,11 +44,39 @@ const colorMode = useColorMode();
 const statusStore = useStatusStore();
 
 // 站点语言
-const siteLang = computed(() =>
-  statusStore.siteLang === "zh-CN"
-    ? { locale: zhCN, date: dateZhCN }
-    : { locale: undefined, date: undefined },
-);
+const siteLang = computed(() => {
+  let lang = statusStore.siteLang;
+  
+  // 跟随系统
+  if (lang === "system") {
+    const browserLang = navigator.language || navigator.languages?.[0] || "en";
+    if (browserLang.startsWith("zh-CN") || browserLang.startsWith("zh-Hans")) {
+      lang = "zh-CN";
+    } else if (browserLang.startsWith("zh-TW") || browserLang.startsWith("zh-Hant") || browserLang.startsWith("zh-HK")) {
+      lang = "zh-TW";
+    } else if (browserLang.startsWith("ja")) {
+      lang = "ja-JP";
+    } else if (browserLang.startsWith("ko")) {
+      lang = "ko-KR";
+    } else if (browserLang.startsWith("es")) {
+      lang = "es-ES";
+    } else if (browserLang.startsWith("fr")) {
+      lang = "fr-FR";
+    } else if (browserLang.startsWith("de")) {
+      lang = "de-DE";
+    } else if (browserLang.startsWith("ru")) {
+      lang = "ru-RU";
+    } else {
+      lang = "en";
+    }
+  }
+  
+  // 返回 Naive UI 语言配置
+  if (lang === "zh-CN" || lang === "zh-TW") {
+    return { locale: zhCN, date: dateZhCN };
+  }
+  return { locale: undefined, date: undefined };
+});
 
 // 获取明暗模式
 const theme = computed(() => {

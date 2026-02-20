@@ -17,15 +17,23 @@ export const siteType: { [key: number]: { tag: string; text?: string } } = {
   4: { tag: "PORT", text: "检测目标服务器的指定端口是否开放" },
   5: {
     tag: "HEARTBEAT",
-    text: "由被监控的服务主动发送“心跳信号”到监控服务，表明自身正常运行",
+    text: "由被监控的服务主动发送"心跳信号"到监控服务，表明自身正常运行",
   },
 };
 
 // 语言数据
 export const langData: SelectOption[] = [
   {
+    label: "跟随系统",
+    value: "system",
+  },
+  {
     label: "简体中文",
     value: "zh-CN",
+  },
+  {
+    label: "繁體中文",
+    value: "zh-TW",
   },
   {
     label: "English",
@@ -38,5 +46,21 @@ export const langData: SelectOption[] = [
   {
     label: "한국어",
     value: "ko-KR",
+  },
+  {
+    label: "Español",
+    value: "es-ES",
+  },
+  {
+    label: "Français",
+    value: "fr-FR",
+  },
+  {
+    label: "Deutsch",
+    value: "de-DE",
+  },
+  {
+    label: "Русский",
+    value: "ru-RU",
   },
 ];

@@ -1,0 +1,68 @@
+{
+  "uptimeRobot": "UptimeRobot",
+  "site": {
+    "loading": "Website-Status wird geladen",
+    "unknown": "Website-Status unbekannt",
+    "normal": "Die Website funktioniert normal",
+    "error": "Alle Websites haben Probleme",
+    "warn": "Einige Websites haben Probleme"
+  },
+  "nav": {
+    "about": "Über diese Website",
+    "logout": "Abmelden"
+  },
+  "header": {
+    "loading": "Bitte warten...",
+    "unknown": "Dies könnte ein vorübergehendes Problem sein. Bitte versuchen Sie zu aktualisieren.",
+    "update": "Aktualisiert am",
+    "updateAt": "Wird in {time} aktualisiert"
+  },
+  "footer": {
+    "basedOn": "Basierend auf",
+    "interface": "Oberfläche",
+    "checkFrequency": "Prüffrequenz",
+    "fiveMinutes": "5 Minuten"
+  },
+  "card": {
+    "unknownDate": "Unbekanntes Datum",
+    "unknownData": "Keine Daten für heute",
+    "percent": "Tägliche Verfügbarkeit {percent}%",
+    "percentData": "{times} Mal fehlgeschlagen, Gesamtausfallzeit {duration}, tägliche Verfügbarkeit {percent}%",
+    "summary": "Verfügbarkeit der letzten {days} Tage {percent}%",
+    "summaryData": "{times} Mal fehlgeschlagen in den letzten {days} Tagen, Gesamtausfallzeit {duration}, durchschnittliche Verfügbarkeit {percent}%",
+    "error": "Fehler",
+    "errorText": "API-Aufruflimit überschritten oder Anfragefehler. Bitte später erneut versuchen.",
+    "status": {
+      "stop": "Pausiert",
+      "unknown": "Noch nicht geprüft",
+      "pause": "Pausiert",
+      "normal": "Normal",
+      "error": "Fehler",
+      "down": "Ausgefallen"
+    },
+    "type": {
+      "tip": "Prüfen Sie alle {interval}, ob die Website ordnungsgemäß funktioniert für {type}",
+      "HTTP": "Überwachen Sie die Verfügbarkeit des Zieldienstes durch Senden von HTTP- oder HTTPS-Anfragen",
+      "KEYWORD": "Seiteninhalt abrufen und prüfen, ob er das angegebene Schlüsselwort enthält",
+      "PING": "Senden Sie eine Ping-Anfrage an den Zielserver mit dem ICMP-Protokoll",
+      "PORT": "Prüfen, ob der angegebene Port des Zielservers geöffnet ist",
+      "HEARTBEAT": "Der überwachte Dienst sendet aktiv ein 'Herzschlag-Signal' an den Überwachungsdienst, um anzuzeigen, dass er normal läuft"
+    }
+  },
+  "meta": {
+    "hour": "Stunde",
+    "minute": "Minute",
+    "second": "Sekunde",
+    "fastTip": "Aktualisierung zu häufig. Bitte später erneut versuchen.",
+    "refresh": "Erneut versuchen",
+    "today": "Heute"
+  },
+  "login": {
+    "tip": "Die Website ist passwortgeschützt. Bitte geben Sie das Passwort ein.",
+    "password": "Passwort",
+    "placeholder": "Passwort eingeben",
+    "submit": "Anmelden",
+    "error": "Passwort falsch",
+    "success": "Anmeldung erfolgreich"
+  }
+}

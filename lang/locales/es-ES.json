@@ -1,0 +1,68 @@
+{
+  "uptimeRobot": "UptimeRobot",
+  "site": {
+    "loading": "Cargando estado del sitio",
+    "unknown": "Estado del sitio desconocido",
+    "normal": "El sitio funciona normalmente",
+    "error": "Todos los sitios encontraron problemas",
+    "warn": "Algunos sitios encontraron problemas"
+  },
+  "nav": {
+    "about": "Acerca de este sitio",
+    "logout": "Cerrar sesión"
+  },
+  "header": {
+    "loading": "Por favor espere...",
+    "unknown": "Esto podría ser un problema temporal. Intente actualizar.",
+    "update": "Actualizado el",
+    "updateAt": "Se actualizará en {time}"
+  },
+  "footer": {
+    "basedOn": "Basado en",
+    "interface": "Interfaz",
+    "checkFrequency": "Frecuencia de verificación",
+    "fiveMinutes": "5 minutos"
+  },
+  "card": {
+    "unknownDate": "Fecha desconocida",
+    "unknownData": "Sin datos para hoy",
+    "percent": "Disponibilidad diaria {percent}%",
+    "percentData": "Falló {times} veces, tiempo total de inactividad {duration}, disponibilidad diaria {percent}%",
+    "summary": "Disponibilidad en los últimos {days} días {percent}%",
+    "summaryData": "Falló {times} veces en los últimos {days} días, tiempo total de inactividad {duration}, disponibilidad promedio {percent}%",
+    "error": "Error",
+    "errorText": "Límite de llamadas a la interfaz excedido o error de solicitud. Intente más tarde.",
+    "status": {
+      "stop": "Pausado",
+      "unknown": "Aún no verificado",
+      "pause": "Pausado",
+      "normal": "Normal",
+      "error": "Error",
+      "down": "Caído"
+    },
+    "type": {
+      "tip": "Verificar si el sitio funciona correctamente cada {interval} para {type}",
+      "HTTP": "Monitorear la disponibilidad del servicio objetivo enviando solicitudes HTTP o HTTPS",
+      "KEYWORD": "Obtener el contenido de la página y verificar si contiene la palabra clave especificada",
+      "PING": "Enviar una solicitud Ping al servidor de destino usando el protocolo ICMP",
+      "PORT": "Verificar si el puerto especificado del servidor de destino está abierto",
+      "HEARTBEAT": "El servicio monitoreado envía activamente una 'señal de latido' al servicio de monitoreo para indicar que se está ejecutando normalmente"
+    }
+  },
+  "meta": {
+    "hour": "hora",
+    "minute": "minuto",
+    "second": "segundo",
+    "fastTip": "Actualización demasiado frecuente. Intente más tarde.",
+    "refresh": "Reintentar",
+    "today": "Hoy"
+  },
+  "login": {
+    "tip": "El sitio está protegido con contraseña. Ingrese la contraseña para ver.",
+    "password": "Contraseña",
+    "placeholder": "Ingrese la contraseña",
+    "submit": "Iniciar sesión",
+    "error": "Contraseña incorrecta",
+    "success": "Inicio de sesión exitoso"
+  }
+}
