@@ -17,7 +17,7 @@ export const siteType: { [key: number]: { tag: string; text?: string } } = {
   4: { tag: "PORT", text: "检测目标服务器的指定端口是否开放" },
   5: {
     tag: "HEARTBEAT",
-    text: "由被监控的服务主动发送"心跳信号"到监控服务，表明自身正常运行",
+    text: "由被监控的服务主动发送'心跳信号'到监控服务，表明自身正常运行",
   },
 };
 
